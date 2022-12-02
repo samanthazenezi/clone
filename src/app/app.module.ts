@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MiniMenuComponent } from './components/mini-menu/mini-menu.component';
 import { NavComponent } from './components/nav/nav.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { FaixaComponent } from './components/faixa/faixa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MiniMenuComponent,
     NavComponent,
-    MenuComponent
+    MenuComponent,
+    FaixaComponent
   ],
   imports: [
     BrowserModule,
